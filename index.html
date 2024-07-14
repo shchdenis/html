@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Фитнес-проект Екатерины Глушковой</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description" content="SportFIT template project">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="styles/bootstrap-4.1.2/bootstrap.min.css">
+	<link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.carousel.css">
+	<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
+	<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
+	<link href="plugins/colorbox/colorbox.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" type="text/css" href="styles/main_styles.css">
+	<link rel="stylesheet" href="styles/general.css">
+	<link rel="stylesheet" type="text/css" href="styles/responsive.css">
+</head>
+
+<body>
+
+	<div class="super_container">
+
+		<!-- Header -->
+
+		<header class="header">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="header_content d-flex flex-row align-items-center justify-content-start trans_400">
+							<a href="/">
+								<div class="logo d-flex flex-row align-items-center justify-content-start"><img style="width: 35px;"
+										src="images/main_logo.png" alt="">
+									<div>транс<span>форма</span>ция</div>
+								</div>
+							</a>
+							<nav class="main_nav">
+								<ul class="d-flex flex-row  align-items-center justify-content-start">
+									<li class="active"><a href="index.html">Главная</a></li>
+									<li class="nav-item dropdown ">
+										<a class="nav-link-title nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+											aria-expanded="false">
+											Мои курсы
+										</a>
+										<div class="dropdown-menu bg-dark">
+											<a data-type="" class="dropdown-item toggle-course" href="/services.html">Все курсы</a>
+											<a data-type="home" class="dropdown-item toggle-course" href="/services.html">Курсы для дома</a>
+											<a data-type="gym" class="dropdown-item toggle-course" href="/services.html">Курсы для зала</a>
+											<a data-type="marathon" class="dropdown-item toggle-course" href="/services.html">Марафоны</a>
+											<div class="dropdown-divider"></div>
+											<a data-type="nutrition" class="dropdown-item toggle-course" href="/services.html">Программы
+												питания</a>
+											<a data-type="rehabilitation" class="dropdown-item toggle-course"
+												href="/services.html">Реабилитация</a>
+										</div>
+									</li>
+									<li><a href="about.html">Обо мне</a></li>
+									<li><a href="contact.html">Контакты</a></li>
+									<li><a href="cart.html"><span class="navbar__cart-icon">
+												<div class="counter">0</div>
+												<svg style="width: 40px;" class="e-font-icon-svg e-eicon-cart-solid" fill="white"
+													viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg">
+													<path
+														d="M188 167H938C943 167 949 169 953 174 957 178 959 184 958 190L926 450C919 502 875 542 823 542H263L271 583C281 631 324 667 373 667H854C866 667 875 676 875 687S866 708 854 708H373C304 708 244 659 230 591L129 83H21C9 83 0 74 0 62S9 42 21 42H146C156 42 164 49 166 58L188 167ZM771 750C828 750 875 797 875 854S828 958 771 958 667 912 667 854 713 750 771 750ZM354 750C412 750 458 797 458 854S412 958 354 958 250 912 250 854 297 750 354 750Z">
+													</path>
+												</svg>
+											</span></a></li>
+								</ul>
+							</nav>
+							<div class="phone d-flex flex-row align-items-center justify-content-start ml-auto">
+								<i class="fa fa-phone" aria-hidden="true"></i>
+								<div>+7 906 924 33 81</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<!-- Hamburger -->
+
+		<div class="hamburger_bar trans_400 d-flex flex-row align-items-center justify-content-start">
+			<div class="hamburger">
+				<div class="menu_toggle d-flex flex-row align-items-center justify-content-start">
+					<span>menu</span>
+					<div class="hamburger_container">
+						<div class="menu_hamburger">
+							<div class="line_1 hamburger_lines" style="transform: matrix(1, 0, 0, 1, 0, 0);"></div>
+							<div class="line_2 hamburger_lines" style="visibility: inherit; opacity: 1;"></div>
+							<div class="line_3 hamburger_lines" style="transform: matrix(1, 0, 0, 1, 0, 0);"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Menu -->
+
+		<div class="menu trans_800">
+			<div class="menu_content d-flex flex-column align-items-center justify-content-center text-center">
+				<ul>
+					<li><a href="index.html">Главная</a></li>
+					<li><a href="about.html">Обо мне</a></li>
+					<li class="nav-item dropdown ">
+						<a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+							Мои курсы
+						</a>
+						<div class="dropdown-menu bg-dark">
+							<a data-type="" class="dropdown-item toggle-course" href="/services.html">Все курсы</a>
+							<a data-type="home" class="dropdown-item toggle-course" href="/services.html">Курсы для дома</a>
+							<a data-type="gym" class="dropdown-item toggle-course" href="/services.html">Курсы для зала</a>
+							<a data-type="marathon" class="dropdown-item toggle-course" href="/services.html">Марафоны</a>
+							<div class="dropdown-divider"></div>
+							<a data-type="nutrition" class="dropdown-item toggle-course" href="/services.html">Программы
+								питания</a>
+							<a data-type="rehabilitation" class="dropdown-item toggle-course" href="/services.html">Реабилитация</a>
+						</div>
+					</li>
+					<li><a href="contact.html">Контакты</a></li>
+					<li><a href="cart.html"><span class="navbar__cart-icon">
+								<div class="counter">0</div>
+								<svg style="width: 50px;" class="e-font-icon-svg e-eicon-cart-solid" fill="white"
+									viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg">
+									<path
+										d="M188 167H938C943 167 949 169 953 174 957 178 959 184 958 190L926 450C919 502 875 542 823 542H263L271 583C281 631 324 667 373 667H854C866 667 875 676 875 687S866 708 854 708H373C304 708 244 659 230 591L129 83H21C9 83 0 74 0 62S9 42 21 42H146C156 42 164 49 166 58L188 167ZM771 750C828 750 875 797 875 854S828 958 771 958 667 912 667 854 713 750 771 750ZM354 750C412 750 458 797 458 854S412 958 354 958 250 912 250 854 297 750 354 750Z">
+									</path>
+								</svg>
+							</span></a></li>
+				</ul>
+			</div>
+			<div class="menu_phone d-flex flex-row align-items-center justify-content-start">
+				<i class="fa fa-phone" aria-hidden="true"></i>
+				<span>+7 906 924 33 81</span>
+			</div>
+		</div>
+
+		<!-- Home -->
+
+		<div class="home">
+			<div class="background_image" style="background-image:url(images/index1.png)">
+				<div class="background_overlay"></div>
+			</div>
+			<div class="overlay"></div>
+			<div class="home_container">
+				<div class="container">
+					<div class="row">
+						<div class="col">
+							<div class="home_content text-center">
+								<div class="video_link">
+									<a class="vimeo video_button d-flex flex-column align-items-center justify-content-center"
+										href="./images/VID_20210902_170909_483.mp4">
+										<div class="video_link_content d-flex flex-row align-items-center justify-content-start">
+											<div class="video_icon d-flex flex-column align-items-center justify-content-center"><i
+													class="fa fa-play" aria-hidden="true"></i></div>
+											<span class="video_text">Видео</span>
+										</div>
+									</a>
+								</div>
+								<div class="home_title">транс<span style="color:#ef8701;font-weight: 600;">ФОРМА</span>ция</div>
+								<h1 class="home_subtitle">Легендарный фитнес-проект <br> Екатерины Глушковой</h1>
+
+								<div class="button home_button ml-auto mr-auto"><a href="/services.html">Присоединяйся</a></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Boxes -->
+
+		<div class="boxes">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="boxes_container d-flex flex-lg-row flex-column align-items-start justify-content-start">
+
+							<!-- Box -->
+							<div class="box">
+								<div class="box_icon d-flex flex-column align-items-center justify-content-center"><img
+										src="images/icon_1.png" alt=""></div>
+								<div class="box_title">Курсы для дома</div>
+								<div class="box_text">
+									<p>Долой целлюлит и дряблость кожи. Никаких изнурительных диет с курсами для дома! </p>
+								</div>
+								<div data-type="home" class=" toggle-course box_link_container">
+									<a href="/services.html">
+										<div class="box_link d-flex flex-column align-items-center justify-content-center trans_200">
+											<div>+</div>
+										</div>
+									</a>
+								</div>
+							</div>
+
+							<!-- Box -->
+							<div class="box">
+								<div class="box_icon d-flex flex-column align-items-center justify-content-center"><img
+										src="images/icon_2.png" alt=""></div>
+								<div class="box_title">Курсы для зала</div>
+								<div class="box_text">
+									<p>Качественно уменьшите свои жировые отложения в проблемных зонах, без потери мышечной массы с моим
+										курсами для зала!</p>
+								</div>
+								<div data-type="gym" class=" toggle-course box_link_container">
+									<a href="/services.html">
+										<div class="box_link d-flex flex-column align-items-center justify-content-center trans_200">
+											<div>+</div>
+										</div>
+									</a>
+								</div>
+							</div>
+
+							<!-- Box -->
+							<div class="box">
+								<div class="box_icon d-flex flex-column align-items-center justify-content-center"><img
+										src="images/icon_3.png" alt=""></div>
+								<div class="box_title">Марафоны</div>
+								<div class="box_text">
+									<p>Участвуй в марафоне и получи фигуру своей мечты - стройное, сексуальное и уверенное в себе!</p>
+								</div>
+								<div data-type="marathon" class=" toggle-course box_link_container">
+									<a href="/services.html">
+										<div class="box_link d-flex flex-column align-items-center justify-content-center trans_200">
+											<div>+</div>
+										</div>
+									</a>
+								</div>
+							</div>
+							<!-- Box -->
+							<div class="box">
+								<div class="box_icon d-flex flex-column align-items-center justify-content-center"><img
+										src="images/icon_88.png" alt=""></div>
+								<div class="box_title">Программы питания</div>
+								<div class="box_text">
+									<p>Правильное, здоровое питание не означает скучное меню и отказ от вкусных блюд. Как раз наоборот!
+									</p>
+								</div>
+								<div data-type="nutrition" class=" toggle-course box_link_container">
+									<a href="services.html">
+										<div class="box_link d-flex flex-column align-items-center justify-content-center trans_200">
+											<div>+</div>
+										</div>
+									</a>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- About -->
+
+		<div class="about">
+			<div class="container about_container">
+				<div class="row">
+					<div class="col-lg-6">
+						<div class="about_content">
+							<div class="section_title_container">
+								<div class="section_subtitle">будь с нами</div>
+								<div class="section_title">О <span>проекте</span></div>
+							</div>
+							<h2 class="text_highlight">Этот проект для тех, кто хочет улучшить свою жизнь, без жестких ограничений.
+								Вы хотите привести себя в форму, или просто убрать живот, сбросив лишнее? За вами только выбор цели. У
+								вас появится мощная мотивация, которая обеспечит желание посещать тренировки. Окружающие увидят вас с
+								лучшей стороны, как человека, который может достигать поставленных целей. Мы создали этот проект для
+								тех, кто хочет качественно изменить композицию своего тела, обретя заветную фигуру без лишнего жира. Все
+								просто, улучшаешься ты – улучшается всё в твоей жизни.
+							</h2>
+							<div class="about_text">
+								<p>На данный момент моему проекту более трех лет.
+									В нем приняли участие более 600 женщин, которые добились результата и изменили свою жизнь не только
+									благодаря спорту и питанию, но и благодаря работе со своими внутренними установками.
+								</p>
+							</div>
+							<div class="button about_button"><a href="#">Присоединяйся</a></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="about_background">
+				<div class="container fill_height">
+					<div class="row fill_height">
+						<div class="col-lg-6 offset-lg-6 fill_height">
+							<div class="about_image"><img src="images/a1.png" alt=""></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Testimonials -->
+
+		<div class="testimonials">
+			<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/testimonials.jpg"
+				data-speed="0.8"></div>
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6">
+						<div class="section_title_container">
+							<div class="section_subtitle">трансФОРМАция</div>
+							<div class="section_title">Отзывы благодарных клиентов</div>
+						</div>
+
+						<!-- Testimonial -->
+						<div class="test test_1 d-flex flex-row align-items-start justify-content-start">
+							<div>
+								<div class="test_image"><img src="images/test_1.jpg" alt=""></div>
+							</div>
+							<div class="test_content">
+								<div class="test_name"><a href="#">Екатерина Семенова</a></div>
+								<div class="test_title">Курс для зала</div>
+								<div class="test_text">
+									<p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit amet tellus blandit.
+										Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am et tellus blandit.
+										Etiam nec odio vestibul. Etiam nec odio vestibulum est mat tis effic iturut magna.</p>
+								</div>
+								<div class="rating rating_4 test_rating"><i></i><i></i><i></i><i></i><i></i></div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6">
+
+						<!-- Testimonial -->
+						<div class="test d-flex flex-row align-items-start justify-content-start">
+							<div>
+								<div class="test_image"><img src="images/test_2.jpg" alt=""></div>
+							</div>
+							<div class="test_content">
+								<div class="test_name"><a href="#">Валентина Терешкова</a></div>
+								<div class="test_title">Программа питания</div>
+								<div class="test_text">
+									<p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit amet tellus blandit.
+										Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am et tellus blandit.
+										Etiam nec odio vestibul. Etiam nec odio vestibulum est mat tis effic iturut magna.</p>
+								</div>
+								<div class="rating rating_4 test_rating"><i></i><i></i><i></i><i></i><i></i></div>
+							</div>
+						</div>
+
+						<!-- Testimonial -->
+						<div class="test d-flex flex-row align-items-start justify-content-start">
+							<div>
+								<div class="test_image"><img src="images/test_3.jpg" alt=""></div>
+							</div>
+							<div class="test_content">
+								<div class="test_name"><a href="#">Жанна Агузарова</a></div>
+								<div class="test_title">Марафон</div>
+								<div class="test_text">
+									<p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit amet tellus blandit.
+										Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am et tellus blandit.
+										Etiam nec odio vestibul. Etiam nec odio vestibulum est mat tis effic iturut magna.</p>
+								</div>
+								<div class="rating rating_4 test_rating"><i></i><i></i><i></i><i></i><i></i></div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+				<div class="row test_button_row">
+					<div class="col text-center">
+						<div class="button test_button"><a href="#">Присоединяйся</a></div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Gallery -->
+		<h2 style="text-align: center; margin: 50px 0;">Результаты участниц</h2>
+		<div class="gallery">
+
+
+
+			<!-- Gallery Slider -->
+			<div class="gallery_slider_container">
+				<div class="owl-carousel owl-theme gallery_slider">
+
+					<!-- Slide -->
+					<div class="owl-item"><img src="images/res1.jpg" alt=""></div>
+
+					<!-- Slide -->
+					<div class="owl-item"><img src="images/res1 (2).jpg" alt=""></div>
+
+					<!-- Slide -->
+					<div class="owl-item"><img src="images/res1 (3).jpg" alt=""></div>
+
+					<!-- Slide -->
+					<div class="owl-item"><img src="images/res1 (4).jpg" alt=""></div>
+
+					<!-- Slide -->
+					<div class="owl-item"><img src="images/res1 (5).jpg" alt=""></div>
+					<!-- Slide -->
+					<div class="owl-item"><img src="images/res1 (6).jpg" alt=""></div>
+					<!-- Slide -->
+					<div class="owl-item"><img src="images/res1 (7).jpg" alt=""></div>
+					<!-- Slide -->
+					<div class="owl-item"><img src="images/res1 (8).jpg" alt=""></div>
+					<!-- Slide -->
+					<div class="owl-item"><img src="images/res1 (9).jpg" alt=""></div>
+					<!-- Slide -->
+					<div class="owl-item"><img src="images/res1 (10).jpg" alt=""></div>
+					<!-- Slide -->
+					<div class="owl-item"><img src="images/res1 (11).jpg" alt=""></div>
+
+				</div>
+			</div>
+		</div>
+
+		<!-- Services -->
+
+		<div class="services">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="section_title_container">
+							<div class="section_subtitle">трансформация</div>
+							<div class="section_title">Вы получите</div>
+						</div>
+					</div>
+				</div>
+				<div class="row services_row">
+
+					<!-- Service -->
+					<div class="col-xl-4 col-md-6 service_col">
+						<div class="service">
+							<div class="service_title_container d-flex flex-row align-items-center justify-content-start">
+								<div>
+									<div class="service_icon"><img src="images/icon_4.png" alt=""></div>
+								</div>
+								<div class="service_title">Снижение массы тела без вреда для здоровья!</div>
+							</div>
+							<div class="service_text">
+								<p></p>
+							</div>
+						</div>
+					</div>
+
+					<!-- Service -->
+					<div class="col-xl-4 col-md-6 service_col">
+						<div class="service">
+							<div class="service_title_container d-flex flex-row align-items-center justify-content-start">
+								<div>
+									<div class="service_icon"><img src="images/icon_5.png" alt=""></div>
+								</div>
+								<div class="service_title">Упругие ягодицы, стройные ноги и плоский живот!</div>
+							</div>
+							<div class="service_text">
+								<p></p>
+							</div>
+						</div>
+					</div>
+
+					<!-- Service -->
+					<div class="col-xl-4 col-md-6 service_col">
+						<div class="service">
+							<div class="service_title_container d-flex flex-row align-items-center justify-content-start">
+								<div>
+									<div class="service_icon"><img src="images/icon_6.png" alt=""></div>
+								</div>
+								<div class="service_title">Подтянутую фигуру без лишней жировой ткани</div>
+							</div>
+							<div class="service_text">
+								<p></p>
+							</div>
+						</div>
+					</div>
+
+					<!-- Service -->
+					<div class="col-xl-4 col-md-6 service_col">
+						<div class="service">
+							<div class="service_title_container d-flex flex-row align-items-center justify-content-start">
+								<div>
+									<div class="service_icon"><img src="images/icon_7.png" alt=""></div>
+								</div>
+								<div class="service_title">Улучшение настроения и самочувствия</div>
+							</div>
+							<div class="service_text">
+								<p></p>
+							</div>
+						</div>
+					</div>
+
+					<!-- Service -->
+					<div class="col-xl-4 col-md-6 service_col">
+						<div class="service">
+							<div class="service_title_container d-flex flex-row align-items-center justify-content-start">
+								<div>
+									<div class="service_icon"><img src="images/icon_8.png" alt=""></div>
+								</div>
+								<div class="service_title">Улучшение растяжки, статную и красивую осанку</div>
+							</div>
+							<div class="service_text">
+								<p></p>
+							</div>
+						</div>
+					</div>
+
+					<!-- Service -->
+					<div class="col-xl-4 col-md-6 service_col">
+						<div class="service">
+							<div class="service_title_container d-flex flex-row align-items-center justify-content-start">
+								<div>
+									<div class="service_icon"><img src="images/icon_9.png" alt=""></div>
+								</div>
+								<div class="service_title">Красивый женский мышечный рельеф</div>
+							</div>
+							<div class="service_text">
+								<p></p>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+		<!-- Blog -->
+
+		<div class="blog">
+			<div class="blog_overlay"></div>
+			<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/blog.jpg"
+				data-speed="0.8"></div>
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class=" d-flex flex-row align-items-start justify-content-start">
+							<div class="section_title_container">
+								<div class="section_subtitle">трансформация</div>
+								<div class="section_title">Новости проекта</div>
+							</div>
+							<div class="all_posts_link ml-auto"><a href="#"></a></div>
+						</div>
+					</div>
+				</div>
+				<div class="row blog_row">
+
+					<!-- Blog Post -->
+					<div class="col-lg-4 blog_col">
+						<div class="blog_post">
+							<div class="blog_post_image"><img src="images/blog_1.jpg" alt=""></div>
+							<div class="blog_post_title"><a href="#">Обновленные программы тренировок</a></div>
+							<div class="blog_post_date"><a href="#">29 июня 2024</a></div>
+							<div class="blog_post_text">
+								<p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit amet tellus blandit. Odio
+									vestibulum est mattis effic iturut.</p>
+							</div>
+							<div class="blog_post_link"><a href="#">Читать еще</a></div>
+						</div>
+					</div>
+
+					<!-- Blog Post -->
+					<div class="col-lg-4 blog_col">
+						<div class="blog_post">
+							<div class="blog_post_image"><img src="images/blog_2.jpg" alt=""></div>
+							<div class="blog_post_title"><a href="#">Изменения в развитии проекта</a></div>
+							<div class="blog_post_date"><a href="#">29 июня 2024</a></div>
+							<div class="blog_post_text">
+								<p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit amet tellus blandit. Odio
+									vestibulum est mattis effic iturut.</p>
+							</div>
+							<div class="blog_post_link"><a href="#">Читать еще</a></div>
+						</div>
+					</div>
+
+					<!-- Blog Post -->
+					<div class="col-lg-4 blog_col">
+						<div class="blog_post">
+							<div class="blog_post_image"><img src="images/blog_3.jpg" alt=""></div>
+							<div class="blog_post_title"><a href="#">Правильное питание. Обсуждаем результат</a></div>
+							<div class="blog_post_date"><a href="#">29 июня 2024</a></div>
+							<div class="blog_post_text">
+								<p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit amet tellus blandit. Odio
+									vestibulum est mattis effic iturut.</p>
+							</div>
+							<div class="blog_post_link"><a href="#">Читать еще</a></div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+		<!-- Footer -->
+
+		<footer>
+			<div>
+				<div class='tel-logo'>
+					<h2>Телефон / WhatsApp</h2>
+					<p href='tel:+7 906 924 33 81'>+7 (906) 924 33 81</p>
+				</div>
+				<div class='adress'>
+					<h2>Адрес:</h2>
+					<p>г.Кемерово </p>
+				</div>
+				<div class='con'>
+					<h2>Свяжитесь с нами</h2>
+					<div class="messengers">
+						<a href="https://t.me/">
+							<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#2ca5e0" class="bi bi-telegram"
+								viewBox="0 0 16 16">
+								<path
+									d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.287 5.906c-.778.324-2.334.994-4.666 2.01-.378.15-.577.298-.595.442-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294.26.006.549-.1.868-.32 2.179-1.471 3.304-2.214 3.374-2.23.05-.012.12-.026.166.016.047.041.042.12.037.141-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8.154 8.154 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629.093.06.183.125.27.187.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.426 1.426 0 0 0-.013-.315.337.337 0 0 0-.114-.217.526.526 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09z" />
+							</svg>
+						</a>
+						<a href="https://wa.me/79069243381">
+							<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="27" height="27" fill="#43d854"
+								viewBox="0 0 50 50">
+								<path
+									d="M25,2C12.318,2,2,12.318,2,25c0,3.96,1.023,7.854,2.963,11.29L2.037,46.73c-0.096,0.343-0.003,0.711,0.245,0.966 C2.473,47.893,2.733,48,3,48c0.08,0,0.161-0.01,0.24-0.029l10.896-2.699C17.463,47.058,21.21,48,25,48c12.682,0,23-10.318,23-23 S37.682,2,25,2z M36.57,33.116c-0.492,1.362-2.852,2.605-3.986,2.772c-1.018,0.149-2.306,0.213-3.72-0.231 c-0.857-0.27-1.957-0.628-3.366-1.229c-5.923-2.526-9.791-8.415-10.087-8.804C15.116,25.235,13,22.463,13,19.594 s1.525-4.28,2.067-4.864c0.542-0.584,1.181-0.73,1.575-0.73s0.787,0.005,1.132,0.021c0.363,0.018,0.85-0.137,1.329,1.001 c0.492,1.168,1.673,4.037,1.819,4.33c0.148,0.292,0.246,0.633,0.05,1.022c-0.196,0.389-0.294,0.632-0.59,0.973 s-0.62,0.76-0.886,1.022c-0.296,0.291-0.603,0.606-0.259,1.19c0.344,0.584,1.529,2.493,3.285,4.039 c2.255,1.986,4.158,2.602,4.748,2.894c0.59,0.292,0.935,0.243,1.279-0.146c0.344-0.39,1.476-1.703,1.869-2.286 s0.787-0.487,1.329-0.292c0.542,0.194,3.445,1.604,4.035,1.896c0.59,0.292,0.984,0.438,1.132,0.681 C37.062,30.587,37.062,31.755,36.57,33.116z">
+								</path>
+							</svg></a>
+					</div>
+				</div>
+			</div>
+			<div>
+				<div style="gap: 0;" class='logo'>
+					<img style="width: 35px;" src="/images/main_logo.png" alt="logotype" />
+					<span>транс</span>
+					<h2>ФОРМА</h2><span>ция</span>
+				</div>
+				<div class='adress'>
+					<p><span>Copyright © 2024 Трансформация</span></p>
+				</div>
+				<div class='con'>
+					<p><span>Пн-Вс с 10:00 до 20:00</span></p>
+				</div>
+			</div>
+		</footer>
+	</div>
+
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="styles/bootstrap-4.1.2/popper.js"></script>
+	<script src="styles/bootstrap-4.1.2/bootstrap.min.js"></script>
+	<script src="plugins/greensock/TweenMax.min.js"></script>
+	<script src="plugins/greensock/TimelineMax.min.js"></script>
+	<script src="plugins/scrollmagic/ScrollMagic.min.js"></script>
+	<script src="plugins/greensock/animation.gsap.min.js"></script>
+	<script src="plugins/greensock/ScrollToPlugin.min.js"></script>
+	<script src="plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
+	<script src="plugins/easing/easing.js"></script>
+	<script src="plugins/progressbar/progressbar.min.js"></script>
+	<script src="plugins/parallax-js-master/parallax.min.js"></script>
+	<script src="plugins/colorbox/jquery.colorbox-min.js"></script>
+	<script src="js/custom.js"></script>
+	<script src="js/general.js"></script>
+</body>
+
+</html>

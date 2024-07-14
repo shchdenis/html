@@ -1,0 +1,40 @@
+.logo {
+	gap: 7px;
+
+
+	div {
+		display: flex;
+		font-size: 18px;
+		font-weight: 200;
+
+	}
+
+
+	div>span {
+
+		display: block;
+		color: red;
+		font-size: 21px;
+		font-weight: 900;
+	}
+}
+
+.main_nav {
+	margin-left: 0px;
+	flex: 1 0 auto;
+
+
+
+	ul {
+		justify-content: space-around !important;
+	}
+}
+
+.main_nav ul li:not(:last-of-type) {
+	margin-right: 0px;
+
+}
+
+.main_nav ul li a {
+	font-size: 19px;
+}
